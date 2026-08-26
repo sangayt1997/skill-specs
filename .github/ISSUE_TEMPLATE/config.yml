@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and design discussions
+    url: https://github.com/sangayt1997/skill-specs/discussions
+    about: Ask usage questions or discuss ideas that are not yet actionable issues.
+  - name: Private security report
+    url: https://github.com/sangayt1997/skill-specs/security/advisories/new
+    about: Report vulnerabilities, exposed secrets, and unsafe instructions privately.
+

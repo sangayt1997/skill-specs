@@ -1,0 +1,36 @@
+name: Repository bug
+description: Report a problem with repository structure, templates, validation, or automation.
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem
+      description: Clearly describe what is not working as expected.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include commands, paths, or pull-request context where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched open issues for this problem.
+          required: true
+        - label: This report does not contain private security information.
+          required: true
+        - label: I agree to follow the Code of Conduct.
+          required: true
+

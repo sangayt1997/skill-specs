@@ -1,13 +1,33 @@
 # Quality Standard
 
-Before a planned skill is considered production-ready, review it for:
+Before a planned skill becomes production-ready, reviewers must be able to answer yes to the applicable checks below.
 
-- correctness
-- clarity and actionability
-- non-conflicting guidance
-- realistic examples where useful
-- maintainability and appropriate scope
-- avoidance of unnecessary duplication
+## Scope and Discovery
 
-The detailed quality bar will evolve alongside completed skills.
+- Does the description clearly identify capability and activation scope?
+- Is the responsibility cohesive and meaningfully distinct from existing skills?
+- Are exclusions included only where they prevent likely misuse?
 
+## Correctness and Actionability
+
+- Are instructions technically correct and specific enough to change decisions?
+- Are MUST, SHOULD, and MAY requirements used consistently?
+- Are important trade-offs, exceptions, and failure modes represented?
+- Does the skill preserve user intent, project context, and authorization boundaries?
+- Is verification proportional to the risk and observable where possible?
+
+## Clarity and Context Cost
+
+- Is generic or repeated advice removed?
+- Are examples realistic and included only when useful?
+- Is conditional detail routed to focused references instead of loaded every time?
+- Are all supporting files necessary, discoverable, and maintained from one source of truth?
+
+## Maintainability
+
+- Does the skill avoid unnecessary dependencies and brittle tool assumptions?
+- Would a future contributor understand why non-obvious constraints exist?
+- Are framework-specific claims compatible with the versions in scope?
+- Does repository validation pass?
+
+Automated checks confirm structure, not behavioral quality. A Code Owner must review production-ready skills and material changes against this standard.

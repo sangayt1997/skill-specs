@@ -1,0 +1,35 @@
+name: Documentation issue
+description: Report missing, incorrect, inconsistent, or unclear repository documentation.
+title: "[Docs]: "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Document or location
+      description: Provide a path, heading, or link.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current problem
+      description: Explain what is missing, incorrect, inconsistent, or unclear.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Suggested improvement
+      description: Describe the expected correction or clarification.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched open issues for the same documentation problem.
+          required: true
+        - label: I agree to follow the Code of Conduct.
+          required: true
+

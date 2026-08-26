@@ -1,10 +1,32 @@
-# skill-specs
+# Skill Specs
 
 > A collection of reusable AI skills and engineering specifications for building high-quality, scalable software.
 
 `skill-specs` provides reusable engineering guidance for AI coding agents across core software engineering, frontend, backend, databases, architecture, quality and testing, security, and DevOps.
 
 The repository is built incrementally. Skills marked **Planned** define an intended scope but do not yet contain complete production guidance.
+
+## Implementation Status
+
+The repository currently contains **15 implemented skills** and **22 planned skills**.
+
+### Implemented
+
+- **Core:** [`algorithmic-efficiency`](skills/core/algorithmic-efficiency/), [`clean-code`](skills/core/clean-code/), [`code-review`](skills/core/code-review/), [`documentation`](skills/core/documentation/), and [`error-handling`](skills/core/error-handling/)
+- **Architecture:** [`distributed-systems`](skills/architecture/distributed-systems/), [`modular-design`](skills/architecture/modular-design/), [`scalability`](skills/architecture/scalability/), and [`system-design`](skills/architecture/system-design/)
+- **Frontend:** [`accessibility`](skills/frontend/accessibility/), [`frontend-architecture`](skills/frontend/frontend-architecture/), [`frontend-performance`](skills/frontend/frontend-performance/), [`nextjs`](skills/frontend/nextjs/), [`react`](skills/frontend/react/), and [`state-management`](skills/frontend/state-management/)
+
+### In Progress and Planned
+
+The next implementation areas currently retain planned specifications:
+
+- **Backend:** API design, authentication, authorization, backend architecture, caching, and concurrency
+- **Database:** database design, indexing, migrations, query performance, and SQL
+- **Quality:** end-to-end testing, integration testing, testing strategy, and unit testing
+- **Security:** API security, dependency security, and secure coding
+- **DevOps:** CI/CD, deployment, Docker, and observability
+
+This section reflects the status declared by each skill. A planned skill is not considered implemented until its production guidance replaces the placeholder and passes repository validation.
 
 ## Browse the Skills
 

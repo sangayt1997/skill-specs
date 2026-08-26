@@ -1,12 +1,18 @@
 # Naming Conventions
 
-Use these initial naming rules:
+## Skills
 
-- Use lowercase, kebab-case skill names.
-- Choose concise, descriptive names.
-- Match each skill directory to the YAML `name` exactly.
-- Name every skill entry file `SKILL.md`.
-- Avoid vendor names unless a skill intentionally targets that vendor or framework.
+- Use lowercase ASCII letters, digits, and hyphens.
+- Use kebab-case without leading, trailing, or repeated hyphens.
+- Keep names at or below 64 characters.
+- Choose a concise name that identifies one cohesive engineering responsibility.
+- Match the skill directory to the YAML `name` exactly.
+- Name every skill entry file exactly `SKILL.md`.
 
-These conventions may be expanded as new repository patterns emerge.
+Avoid vendor or framework names unless the skill intentionally targets that technology. Avoid vague suffixes such as `helper`, `utility`, or `best-practices` when a more precise responsibility is available.
 
+## Categories and Supporting Files
+
+Category directories use lowercase, kebab-case domain names. New categories require a proposal because they affect repository-wide information architecture.
+
+Use lowercase, descriptive filenames for references, scripts, and assets, following the conventions of their file type. Do not add alternative entry points such as `README.md` inside a skill directory when `SKILL.md` already serves that purpose.

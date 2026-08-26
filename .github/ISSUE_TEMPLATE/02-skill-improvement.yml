@@ -1,0 +1,42 @@
+name: Skill improvement
+description: Suggest a focused correction or improvement to an existing skill.
+title: "[Skill improvement]: "
+body:
+  - type: input
+    id: path
+    attributes:
+      label: Skill path
+      placeholder: skills/core/example/SKILL.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Explain what is unclear, incorrect, missing, unsafe, or ineffective.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or realistic example
+      description: Provide a concrete use case or observed failure when available.
+    validations:
+      required: false
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the behavior or decision the improved skill should produce.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I checked related skills and open issues.
+          required: true
+        - label: I agree to follow the Code of Conduct and contribution guidelines.
+          required: true
+

@@ -1,0 +1,64 @@
+name: Skill proposal
+description: Propose a new reusable AI coding-agent skill before implementation.
+title: "[Skill proposal]: "
+body:
+  - type: markdown
+    attributes:
+      value: Check existing skills and open proposals before suggesting a new scope.
+  - type: input
+    id: name
+    attributes:
+      label: Proposed skill name
+      description: Use a concise lowercase, kebab-case name.
+      placeholder: example-skill
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - core
+        - frontend
+        - backend
+        - database
+        - architecture
+        - quality
+        - security
+        - devops
+        - new category requiring discussion
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Engineering problem
+      description: What recurring decisions or failures should this skill address?
+    validations:
+      required: true
+  - type: textarea
+    id: activation
+    attributes:
+      label: Intended activation scope
+      description: Give realistic requests where this skill should and should not apply.
+    validations:
+      required: true
+  - type: textarea
+    id: overlap
+    attributes:
+      label: Relationship to existing skills
+      description: Identify related skills and explain why this scope is distinct.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Proposal checks
+      options:
+        - label: I searched existing skills and open issues for overlap.
+          required: true
+        - label: I have not included a full implementation in this proposal.
+          required: true
+        - label: I agree to follow the Code of Conduct and contribution guidelines.
+          required: true
+

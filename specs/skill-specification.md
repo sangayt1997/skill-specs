@@ -1,15 +1,67 @@
 # Skill Specification
 
-This document will define the technical contract and expected structure of a valid `SKILL.md`.
+This document defines the repository contract for a valid skill entry point.
 
-The evolving specification will cover:
+## Location
 
-- YAML frontmatter
-- skill name and description
-- purpose and activation guidance
-- actionable instructions
-- examples where necessary
-- expected quality
+A repository skill must be stored at:
 
-The detailed specification is evolving as the repository matures.
+```text
+skills/<category>/<skill-name>/SKILL.md
+```
 
+The directory name must match the skill's YAML `name`. The entry file must be named exactly `SKILL.md`.
+
+## Required Frontmatter
+
+Every `SKILL.md` must begin with YAML frontmatter containing:
+
+```yaml
+---
+name: example-skill
+description: Guide AI coding agents to perform a specific task and explain when this skill should apply.
+---
+```
+
+The `name` must satisfy the [naming conventions](naming-conventions.md). The `description` must distinguish both the skill's capability and intended activation scope. Do not place the full workflow in the description.
+
+Supported optional frontmatter may be preserved when a target agent recognizes it, but optional fields must not make the core guidance unusable by other compatible agents.
+
+## Body
+
+A production-ready skill body must provide:
+
+- purpose and useful activation boundaries;
+- actionable instructions and material constraints;
+- verification appropriate to the work;
+- trade-offs or exceptions where rigid guidance could produce harm; and
+- links to supporting resources when conditional detail is separated from the entry point.
+
+Examples are optional. Include them only when they clarify a non-obvious decision or output.
+
+## Status
+
+Planned placeholders must contain `**Status:** Planned` and a concise intended scope. They must not imply that their detailed guidance is complete.
+
+The reusable template uses `**Status:** Draft`, and illustrative examples use `**Status:** Example`. Production-ready skills do not need a status marker unless the repository later adopts explicit release metadata.
+
+## Optional Resources
+
+A skill directory may contain:
+
+- `references/` for conditional documentation;
+- `scripts/` for deterministic or repeated operations;
+- `assets/` for files copied or adapted into generated output; and
+- `agents/` for supported agent-facing metadata.
+
+Add only resources with a concrete purpose. Reference instructional resources from `SKILL.md` and explain when they should be read or executed.
+
+## Validation
+
+Run:
+
+```bash
+bash scripts/validate-skills.sh
+```
+
+Automated validation checks structural invariants. Maintainer review determines whether the guidance is correctly scoped, actionable, safe, and worth maintaining.

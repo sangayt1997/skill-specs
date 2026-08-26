@@ -33,6 +33,7 @@ Write clear commit messages that explain the change. Maintainers may squash comm
 - Keep guidance technology-independent unless the skill intentionally targets a framework or vendor.
 - Avoid duplicate or ambiguously overlapping responsibilities.
 - Add supporting resources only when they materially improve repeated use of the skill.
+- Record material external research in the centralized [research references](docs/research-references.md), preferring standards, primary research, and official documentation.
 
 A planned placeholder must be clearly marked `**Status:** Planned`. A production-ready skill must contain actionable guidance and satisfy the complete quality checklist; removing `Planned` status is a substantive change requiring maintainer review.
 

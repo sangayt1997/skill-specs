@@ -9,8 +9,9 @@ Use this workflow:
 5. Copy [`templates/skill/SKILL.md`](../templates/skill/SKILL.md) into the directory.
 6. Define valid frontmatter, clear activation boundaries, and actionable guidance.
 7. Add supporting resources only when they have a concrete reusable purpose.
-8. Review the skill against the repository authoring and quality standards.
-9. Run `bash scripts/validate-skills.sh` before opening a pull request.
+8. Record material external sources in the centralized [research references](research-references.md).
+9. Review the skill against the repository authoring and quality standards.
+10. Run `bash scripts/validate-skills.sh` before opening a pull request.
 
 The normative requirements are defined in:
 

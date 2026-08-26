@@ -1,8 +1,8 @@
 # Getting Started
 
-`skill-specs` is a collection of reusable engineering guidance for AI coding agents. Begin with the root [README](../README.md), then browse [`skills/`](../skills/) by engineering domain and read the `SKILL.md` most relevant to your task.
+`skill-specs` is a collection of reusable engineering guidance for AI coding agents. Begin with the [skills catalog](../README.md#skills), choose the entry whose primary use matches the task, and read its linked `SKILL.md` for activation boundaries and instructions.
 
-Skills marked **Planned** are placeholders whose detailed specifications will be implemented later.
+Skills are grouped under [`skills/`](../skills/) by engineering domain. The catalog links to every skill currently included in repository validation.
 
 To contribute, read the root [contribution guide](../CONTRIBUTING.md), the [skill specification](../specs/skill-specification.md), and the [authoring standard](../specs/skill-authoring-standard.md). New skills should begin with the [reusable template](../templates/skill/SKILL.md).
 

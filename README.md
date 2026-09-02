@@ -14,6 +14,7 @@
 | Core | [`documentation`](skills/core/documentation/SKILL.md) | Create accurate task-oriented technical documentation. |
 | Core | [`error-handling`](skills/core/error-handling/SKILL.md) | Design predictable failure, recovery, and error-reporting semantics. |
 | Frontend | [`accessibility`](skills/frontend/accessibility/SKILL.md) | Build and review accessible web interfaces and interactions. |
+| Frontend | [`anti-ai-slop`](skills/frontend/anti-ai-slop/SKILL.md) | Replace generic interface patterns with product-specific design decisions. |
 | Frontend | [`frontend-architecture`](skills/frontend/frontend-architecture/SKILL.md) | Structure browser applications and cross-feature boundaries. |
 | Frontend | [`frontend-performance`](skills/frontend/frontend-performance/SKILL.md) | Diagnose and improve measured user-perceived web performance. |
 | Frontend | [`nextjs`](skills/frontend/nextjs/SKILL.md) | Implement version-appropriate Next.js applications. |

@@ -101,6 +101,11 @@ while IFS= read -r directory; do
   if [[ ! -f "$directory/SKILL.md" ]]; then
     report_error "$directory does not contain SKILL.md"
   fi
+
+  unexpected_entries=$(find "$directory" -mindepth 1 ! -path "$directory/SKILL.md" -print)
+  if [[ -n "$unexpected_entries" ]]; then
+    report_error "$directory must contain only SKILL.md; unexpected entries: $unexpected_entries"
+  fi
 done < <(find skills -mindepth 2 -maxdepth 2 -type d | sort)
 
 duplicates=$(sort "$skill_names_file" | uniq -d)

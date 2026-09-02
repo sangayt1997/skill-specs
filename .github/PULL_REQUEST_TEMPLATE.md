@@ -18,6 +18,7 @@ Link the proposal or issue, for example `Closes #123`. Use `Not applicable` only
 
 - [ ] I ran `bash scripts/validate-skills.sh` successfully.
 - [ ] The skill directory and YAML `name` match, if applicable.
+- [ ] Each affected skill directory contains only its single `SKILL.md`.
 - [ ] The description explains both capability and activation scope.
 - [ ] I checked for overlap with existing skills.
 - [ ] Instructions preserve project context and do not imply unauthorized actions.
@@ -27,4 +28,3 @@ Link the proposal or issue, for example `Closes #123`. Use `Not applicable` only
 ## Additional context
 
 Describe important trade-offs, evidence, compatibility considerations, or follow-up work. Disclose material AI assistance and confirm that you reviewed the resulting contribution.
-

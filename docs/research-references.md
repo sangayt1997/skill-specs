@@ -2,7 +2,7 @@
 
 This bibliography records the principal standards, specifications, and authoritative documentation consulted while developing the repository's skills. It provides research traceability without duplicating external documentation inside each `SKILL.md`.
 
-**Last reviewed:** 2026-08-27
+**Last reviewed:** 2026-09-02
 
 External guidance evolves. Before applying version-sensitive requirements, verify the current documentation for the project's actual language, framework, database, platform, and deployment environment. These references informed the skills; they do not imply endorsement by their publishers or replace project-specific requirements.
 
@@ -15,6 +15,7 @@ External guidance evolves. Before applying version-sensitive requirements, verif
 | `code-review` | [Google Engineering Practices: How to Do a Code Review](https://google.github.io/eng-practices/review/reviewer/)<br>[Google Engineering Practices: The Standard of Code Review](https://google.github.io/eng-practices/review/reviewer/standard.html)<br>[Google Engineering Practices: Writing Review Comments](https://google.github.io/eng-practices/review/reviewer/comments.html) | Review priorities, evidence, code health, severity, and constructive feedback. |
 | `documentation` | [Diátaxis Documentation Framework](https://diataxis.fr/)<br>[Google Developer Documentation Style Guide](https://developers.google.com/style) | Tutorials, how-to guides, reference, explanation, clarity, and audience-oriented writing. |
 | `error-handling` | [RFC 9457: Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457.html)<br>[Google SRE: Effective Troubleshooting](https://sre.google/sre-book/effective-troubleshooting/) | Stable error contracts, diagnostic context, failure classification, and recovery. |
+| `seo` | [Google Search Essentials](https://developers.google.com/search/docs/essentials)<br>[Google: Creating Helpful, Reliable, People-First Content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)<br>[Google: SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)<br>[Google: Title Links](https://developers.google.com/search/docs/appearance/title-link)<br>[Google: Snippets and Meta Descriptions](https://developers.google.com/search/docs/appearance/snippet)<br>[Google: Spam Policies](https://developers.google.com/search/docs/essentials/spam-policies)<br>[Google: Canonical URLs](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)<br>[Google: Structured Data Guidelines](https://developers.google.com/search/docs/appearance/structured-data/sd-policies)<br>[Google: JavaScript SEO](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics)<br>[RFC 9309: Robots Exclusion Protocol](https://www.rfc-editor.org/rfc/rfc9309.html)<br>[Sitemaps Protocol](https://www.sitemaps.org/protocol.html)<br>[Open Graph Protocol](https://ogp.me/) | Search intent, people-first content, search presentation, spam boundaries, crawl and index controls, rendering, canonicalization, structured data, social metadata, and measurement. |
 
 ## Frontend
 

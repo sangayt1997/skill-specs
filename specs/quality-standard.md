@@ -20,8 +20,8 @@ Before a planned skill becomes production-ready, reviewers must be able to answe
 
 - Is generic or repeated advice removed?
 - Are examples realistic and included only when useful?
-- Is conditional detail routed to focused references instead of loaded every time?
-- Are all supporting files necessary, discoverable, and maintained from one source of truth?
+- Is conditional detail organized clearly without fragmenting the skill?
+- Is the complete skill self-contained in its sole `SKILL.md`?
 
 ## Maintainability
 

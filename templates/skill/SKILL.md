@@ -7,6 +7,8 @@ description: Describe what this skill guides the AI coding agent to do and when 
 
 **Status:** Draft
 
+Keep the complete skill self-contained in this file. Do not add companion files or subdirectories to the skill directory.
+
 ## Purpose
 
 Describe the engineering problem this skill addresses.
@@ -30,4 +32,3 @@ Describe how the agent should verify its implementation or recommendation.
 ## Examples
 
 Add examples only where they materially improve understanding.
-

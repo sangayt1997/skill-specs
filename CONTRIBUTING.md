@@ -32,7 +32,7 @@ Write clear commit messages that explain the change. Maintainers may squash comm
 - Follow the [skill specification](specs/skill-specification.md), [authoring standard](specs/skill-authoring-standard.md), [naming conventions](specs/naming-conventions.md), and [quality standard](specs/quality-standard.md).
 - Keep guidance technology-independent unless the skill intentionally targets a framework or vendor.
 - Avoid duplicate or ambiguously overlapping responsibilities.
-- Add supporting resources only when they materially improve repeated use of the skill.
+- Keep the complete skill in its single `SKILL.md`; do not add companion files or nested directories to a skill directory.
 - Record material external research in the centralized [research references](docs/research-references.md), preferring standards, primary research, and official documentation.
 
 A planned placeholder must be clearly marked `**Status:** Planned`. A production-ready skill must contain actionable guidance and satisfy the complete quality checklist; removing `Planned` status is a substantive change requiring maintainer review.

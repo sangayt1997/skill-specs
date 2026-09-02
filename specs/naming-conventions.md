@@ -11,8 +11,8 @@
 
 Avoid vendor or framework names unless the skill intentionally targets that technology. Avoid vague suffixes such as `helper`, `utility`, or `best-practices` when a more precise responsibility is available.
 
-## Categories and Supporting Files
+## Categories and Skill Files
 
 Category directories use lowercase, kebab-case domain names. New categories require a proposal because they affect repository-wide information architecture.
 
-Use lowercase, descriptive filenames for references, scripts, and assets, following the conventions of their file type. Do not add alternative entry points such as `README.md` inside a skill directory when `SKILL.md` already serves that purpose.
+Do not add any file other than `SKILL.md` or any nested directory inside a skill directory. Repository-level documents and tooling follow the naming conventions of their respective formats.

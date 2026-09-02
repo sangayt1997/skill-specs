@@ -13,7 +13,9 @@
 | Core | [`code-review`](skills/core/code-review/SKILL.md) | Review code for prioritized, evidence-backed engineering risks. |
 | Core | [`documentation`](skills/core/documentation/SKILL.md) | Create accurate task-oriented technical documentation. |
 | Core | [`error-handling`](skills/core/error-handling/SKILL.md) | Design predictable failure, recovery, and error-reporting semantics. |
+| Core | [`seo`](skills/core/seo/SKILL.md) | Research, create, implement, and audit evidence-based organic search experiences. |
 | Frontend | [`accessibility`](skills/frontend/accessibility/SKILL.md) | Build and review accessible web interfaces and interactions. |
+| Frontend | [`anti-ai-slop`](skills/frontend/anti-ai-slop/SKILL.md) | Replace generic interface patterns with product-specific design decisions. |
 | Frontend | [`frontend-architecture`](skills/frontend/frontend-architecture/SKILL.md) | Structure browser applications and cross-feature boundaries. |
 | Frontend | [`frontend-performance`](skills/frontend/frontend-performance/SKILL.md) | Diagnose and improve measured user-perceived web performance. |
 | Frontend | [`nextjs`](skills/frontend/nextjs/SKILL.md) | Implement version-appropriate Next.js applications. |
@@ -46,7 +48,7 @@
 | DevOps | [`docker`](skills/devops/docker/SKILL.md) | Build secure, minimal, reproducible container images. |
 | DevOps | [`observability`](skills/devops/observability/SKILL.md) | Design actionable metrics, logs, traces, profiles, and alerts. |
 
-Skills are stored at `skills/<category>/<skill-name>/SKILL.md`.
+Skills are stored at `skills/<category>/<skill-name>/SKILL.md`. Each skill directory contains exactly that one self-contained file; companion references, scripts, assets, metadata files, and nested directories are not part of this repository's skill format.
 
 ## Repository Structure
 
@@ -54,7 +56,7 @@ Skills are stored at `skills/<category>/<skill-name>/SKILL.md`.
 - `specs/` — format, authoring, naming, and quality standards
 - `docs/` — usage, compatibility, creation, contribution guidance, and [research references](docs/research-references.md)
 - `templates/` — reusable skill starter templates
-- `examples/` — small illustrative skill packages
+- `examples/` — small illustrative skill files
 - `scripts/` — repository validation utilities
 
 ## Contributing

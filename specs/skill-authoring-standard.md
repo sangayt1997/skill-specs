@@ -30,15 +30,15 @@ Do not use normative language merely for emphasis.
 - Give each skill a cohesive responsibility and discriminating activation description.
 - Check related skills before adding instructions that may belong elsewhere.
 - Link to one authoritative rule instead of copying it across skills.
-- Keep shared purpose and essential constraints in `SKILL.md`.
-- Move substantial conditional guidance into focused references and load it only when relevant.
+- Keep the complete skill self-contained in `SKILL.md`.
+- Organize substantial conditional or mode-specific guidance into clearly labeled sections within the same file.
 
 ## Write Concisely
 
 - Prefer plain language and short, direct sections.
 - Remove generic tutorials, motivational prose, repeated rules, and speculative edge cases.
 - Add examples only when they materially clarify a decision, boundary, or format.
-- Do not add placeholder folders or supporting files without a concrete use.
+- Do not add companion files, placeholder folders, or nested directories to a skill directory.
 
 ## Safety and External Effects
 
